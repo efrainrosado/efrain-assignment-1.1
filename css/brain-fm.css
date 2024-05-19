@@ -1,0 +1,123 @@
+body {
+    background-color: RGB(73, 18, 246);
+	font-family: Arial;
+	color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.section-1-1 {
+    margin-left: 20px;
+}
+
+.section-1 {
+    display: flex;
+    align-items: center;
+}
+
+.section-1a {
+    flex-grow: 75;
+}
+
+.section-1b {
+    flex-grow: 2;
+}
+
+.section-1c {
+    flex-grow: 10;
+}
+
+input[type='button'] {
+    padding: 10px 25px;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 25px;
+    color: white;
+    background: linear-gradient(to right, RGB(234,158,61) , RGB(238,125,56));
+}
+
+.section-2 {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 50px;
+}
+
+h1 {
+    font-size: 35px;
+    font-style: initial;
+    margin-top: 0px;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    font-style: inherit;
+    margin-bottom: 0px;
+    font-weight: normal;
+    color: white;
+}
+
+p {
+    font-size: 17px;
+}
+
+h3 {
+    font-size: 8px;
+}
+
+.container-1 {
+    flex: 0 1 600px;
+	color: RGB(201, 184, 252);
+	z-index: 1;
+    margin-top: 250px;
+}
+
+.container-2 {
+    margin-top: 40px 
+}
+
+.container-2a {
+    white-space: normal; 
+    width: 200px; 
+    padding: 10px 50px;  
+}
+
+.picture-1 {
+    flex: 0 1 900px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section-3 {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 50px 0px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+.patented-tech {
+	flex: 0 1 1200px;
+	margin-right: 50px;
+    margin-left: 100px;
+}
+
+
+.container-3 {
+    margin-top: -70px;
+}
+
+.brain-and-behavior {
+    padding-right: 70px;
+    margin-bottom: 20px
+}
